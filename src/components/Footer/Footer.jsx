@@ -51,9 +51,10 @@ export default class Footer extends React.Component{
   render(){
     return(
       <footer>
+        <img src={logoType} alt={"form2-logotype"}/>
         <div className={"footer-link"}>
           <ul>
-            <img src={logoType} alt={"form2-logotype"}/>
+            <h5>Features</h5>
             {FooterColumn}
           </ul>
           <ul>

@@ -109,6 +109,7 @@ footer {
           justify-content: space-between;
   width: 80%;
   height: 55%;
+  margin-top: 5vh;
 }
 
 footer ul {
@@ -197,9 +198,10 @@ footer h5 {
       -ms-flex-pack: end;
           justify-content: flex-end;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   background: #F5F6F8;
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 
 .introduction h4 {
@@ -961,6 +963,21 @@ footer h5 {
   color: #F5F6F8;
 }
 
+@media screen and (min-width: 1620px) {
+  .introduction {
+    padding-top: 0;
+  }
+  .introduction h4 {
+    margin-bottom: 3vh;
+  }
+  .introduction img {
+    margin-bottom: 3vh;
+  }
+  .introduction-paragraph {
+    margin-bottom: 3vh;
+  }
+}
+
 @media screen and (max-width: 1320px) {
   header {
     height: 12vh;
@@ -1046,7 +1063,7 @@ footer h5 {
     font-size: 1.5em;
   }
   .introduction {
-    padding-top: 10vh;
+    padding-top: 3vh;
   }
   .introduction p {
     width: 80%;
